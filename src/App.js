@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import Title from './Title';
+import Header from './Header';
 import POPOSList from './POPOSList';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
-      <Title />
+      <Header />
       <POPOSList />
+      <Footer />
     </div>
   );
 }

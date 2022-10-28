@@ -1,13 +1,13 @@
 import React from 'react';
-import './Title.css';
+import './Header.css';
 
-function Title() {
+function Header() {
     return (
-        <div className='Title'>
+        <div className='Header'>
             <h1>SFPOPOS</h1>
             <div className='Title-Subtitle'>San Franciscos Privately Owned Public Open Spaces</div>
         </div>
     )
 }
 
-export default Title;
+export default Header;
