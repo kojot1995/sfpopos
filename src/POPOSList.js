@@ -5,17 +5,15 @@ import data from './sfpopos-data.json';
 
 function POPOSList() {
 
-    const POPOSNames = data.cachedContents.top;
-    const spaces = POPOSNames.map(obj => {
-        const {name, address, image} = obj;
+    const spaces = data.map(({title, address, images}, index) => {
 
         return (
             <POPOSSpace 
-                key={name}
-                name={name}
+                id={index}
+                key={title}
+                name={title}
                 address={address}
-                image={image}
-                likeCount={Math.floor(Math.random() * 10 + 1)}
+                image={images[0]}
             />
         )
     })
