@@ -1,0 +1,97 @@
+{
+  "id" : 432815795,
+  "name" : "NAME",
+  "dataTypeName" : "text",
+  "description" : "POPOS name ",
+  "fieldName" : "name",
+  "position" : 1,
+  "renderTypeName" : "text",
+  "tableColumnId" : 43827858,
+  "width" : 148,
+  "cachedContents" : {
+    "largest" : "Westfield Sky Terrace (Wesfield Center Mall)",
+    "non_null" : "78",
+    "null" : "0",
+    "top" : [ {
+      "name" : "77 Van Ness Ave",
+      "address": "77 Van Ness Ave",
+      "image" : "image1.jpg"
+    }, {
+      "name" : "650 California St",
+      "address" : "650 California St",
+      "image" : "image2.jpg"
+    }, {
+      "name" : "199 Fremont St",
+      "address" : "199 Fremont St",
+      "image" : "image3.jpg"
+    }, {
+      "name" : "1 Post St",
+      "address" : "1 Post St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "Marriott Courtyard - C",
+      "address": "299 2nd St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "100 California St",
+      "address" : "100 California St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "Crocker Galleria",
+      "address": "165 Sutter St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "211 Main St",
+      "address" : "211 Main St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "120 Howard St",
+      "address" : "120 Howard St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "222 2nd St",
+      "address" : "222 2nd St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "Marriott Courtyard - A (Starbucks)",
+      "address": "299 2nd St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "123 Mission St",
+      "address" : "123 Mission St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "201 Spear St",
+      "address" : "201 Spear St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "150 California St",
+      "address" : "150 California St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "101 California St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "600 California St",
+      "address" : "600 California St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "77 Beale St",
+      "address" : "77 Beale St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "14 Fremont St",
+      "address" : "14 Fremont St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "Gap Building",
+      "address": "2 Folsom St",
+      "image" : "image-placeholder.jpg"
+    }, {
+      "name" : "555/557 Market St",
+      "address" : "555/557 Market St",
+      "image" : "image-placeholder.jpg"
+    } ]
+  },
+  "format" : { }
+}
