@@ -1,10 +1,12 @@
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Header from './Header';
-import About from './About';
-import POPOSList from './POPOSList';
-import Footer from './Footer';
-import POPOSDetails from './POPOSDetails';
+// import components
+import Header from '../Header/Header';
+import About from '../About/About';
+import POPOSList from '../POPOSList/POPOSList';
+import Footer from '../Footer/Footer';
+import POPOSDetails from '../POPOSDetails/POPOSDetails';
 
 function App() {
   return (
