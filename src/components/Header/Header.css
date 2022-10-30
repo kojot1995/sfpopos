@@ -10,6 +10,14 @@
     color: #fff;
   }
 
+  .Header nav {
+    margin-inline-start: auto;
+  }
+
+  .Header h1 {
+    padding-left: 1em;
+  }
+
   .Title-Subtitle {
     color: rgba(255, 255, 255, 0.75);
     margin-left: 1em;
@@ -27,3 +35,11 @@
     color: #fff;
     border-bottom: 2px solid
   }
+
+  @media only screen and (max-width: 900px) {
+    .Title-Subtitle {
+      visibility: hidden;
+    }
+  }
+
+  

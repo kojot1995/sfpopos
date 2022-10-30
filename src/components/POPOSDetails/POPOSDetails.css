@@ -1,0 +1,16 @@
+.POPOSDetails {
+    display: flex;
+    width: 960px;
+    margin: auto;
+}
+
+.POPOSDetails-info {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.POPOSDetails-hours {
+    font-size: 1.5em;
+}
+
+

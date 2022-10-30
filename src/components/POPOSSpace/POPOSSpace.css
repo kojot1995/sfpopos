@@ -1,9 +1,16 @@
-.POPOSSpace > img {
+.POPOSSpace img {
     width: 100%;
     height: auto;
   }
 
+  .POPOSSpace h2 {
+    text-align: center;
+  }
+
   .address {
+    text-align: center;
     font-style: italic;
     font-weight: 400;
   }
+
+  
