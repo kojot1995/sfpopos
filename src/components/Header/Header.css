@@ -5,9 +5,11 @@
     justify-content: center;
     align-items: baseline;
     padding: 1em;
-    margin-bottom: 2em;
     background-color: rgb(192, 45, 26);
     color: #fff;
+    max-width: 1200px;
+    margin:auto;
+    margin-bottom: 2em;
   }
 
   .Header nav {
