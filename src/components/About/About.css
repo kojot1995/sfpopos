@@ -3,5 +3,8 @@
 }
 
 .About p {
-    margin: 0 40px;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    max-width: 1200px;
 }
