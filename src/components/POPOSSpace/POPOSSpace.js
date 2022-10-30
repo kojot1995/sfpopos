@@ -21,7 +21,6 @@ function POPOSSpace(props) {
       </Link>
       <div>
         <h3 className='address'>Address: {address}</h3>
-        {/* <h4>{likeCount > 0 ? 'Likes: ' + likeCount : ''}</h4> */}
       </div>
 
     </div>
