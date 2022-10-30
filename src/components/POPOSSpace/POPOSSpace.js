@@ -16,11 +16,11 @@ function POPOSSpace(props) {
         />
       </Link>
 
-      <Link to={`/details/${id}`}>
+      <Link to={`/details/${id}`} className='POPOSSpace-link'>
         <h2>{name}</h2>
       </Link>
       <div>
-        <h3 className='address'>Address: {address}</h3>
+        <h3 className='POPOSSpace-address'>Address: {address}</h3>
       </div>
 
     </div>

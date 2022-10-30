@@ -22,13 +22,15 @@ function POPOSList() {
     return (
       <div className='POPOSList'>
         <form>
-          <input 
-            value={input}
-            placeholder='Search for spaces...'
-            onChange={e => { setInput(e.target.value)} }
-          />
-        </form>
-        {spaces} 
+            <input 
+              value={input}
+              placeholder='Search for spaces...'
+              onChange={e => { setInput(e.target.value)} }
+            />
+          </form>
+        <div className='POPOSList-spaces'>
+          {spaces} 
+        </div>
       </div>
     )
 }

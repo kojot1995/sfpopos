@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+}
+
+.POPOSSpace {
+  background-color: floralwhite;
+}
 .POPOSSpace img {
     width: 100%;
     height: auto;
@@ -7,10 +15,16 @@
     text-align: center;
   }
 
-  .address {
+  .POPOSSpace-address {
     text-align: center;
     font-style: italic;
     font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .POPOSSpace-link {
+    color: darkcyan;
+    text-decoration: none;
   }
 
   
