@@ -1,9 +1,39 @@
-# Getting Started with Create React App
+# San Francisco POPOS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Search for POPOS in San Francisco. POPOS are publicly accessible spaces in forms of plazas, terraces, atriums, small parks, and even snippets which are provided and maintained by private developers. In San Francisco, POPOS mostly appear in the Downtown office district area.
 
-## Available Scripts
 
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Setup](#setup)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+
+
+## General Information
+This is a training project that enables a user to find out about POPOS in San Franciso. It's a SPA (Single Page Application) using React framework. It uses JSON (JavaScript Object Notation) file for storing data. Function components render elements of the website. This project uses React Router library for routing which enhances UX (User Experience) by seamless navigation among different views. You can input search term to search for selected POPOS and click on image or title to be redirected to detailed page. 
+
+
+## Technologies Used
+This project was bootstrapped with Create React App.
+- HTML 5
+- CSS 3
+- JavaScript ES6
+- Node.js version 16.17.1
+- react version 18.2.0
+- react-dom 18.2.0
+- react-router-dom version 5.3.4 (Note: this code will not work with React Router v6)
+
+
+## Features
+- Display POPOS in grid (image, title and address)
+- Click on image or title to be redireted to detailed page
+- Input search term to display filtered search results (searching is not case sensitive)
+
+
+## Setup
 In the project directory, you can run:
 
 ### `npm start`
@@ -14,57 +44,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Status
+Project is: _in progress_
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Room for Improvement
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Room for improvement:
+- A map can be used to display location of a space.
+- Replace _feauters_ words with icons.
